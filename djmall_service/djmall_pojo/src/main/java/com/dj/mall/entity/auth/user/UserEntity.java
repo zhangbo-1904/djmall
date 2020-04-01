@@ -36,7 +36,7 @@ public class UserEntity implements Serializable {
     private String userPwd;
 
     /**
-     * 用户状态
+     * 用户状态：1为正常，2为已删除
      */
     private Integer status;
 }
